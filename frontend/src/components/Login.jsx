@@ -40,13 +40,6 @@ const Login = () => {
         }
     };
 
-    // Mapping user's custom classes to standard Tailwind for immediate visibility
-    // text-heading -> text-gray-900
-    // bg-neutral-secondary-medium -> bg-gray-50
-    // border-default-medium -> border-gray-300
-    // rounded-base -> rounded-lg
-    // focus:ring-brand -> focus:ring-blue-600
-
     return (
         <div className="flex min-h-screen w-full items-center justify-center bg-gray-50 p-4">
             <div className="w-full max-w-md bg-white p-8 rounded-xl shadow-lg border border-gray-100 flex flex-col items-center">
